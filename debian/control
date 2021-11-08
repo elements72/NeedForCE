@@ -1,0 +1,16 @@
+Source: need-for-ce
+Priority: optional
+Maintainer: Antonio Lopez <antonio.lopez2@studio.unibo.it>
+Build-Depends: debhelper-compat (= 12), cmake (>= 3.12)
+Standards-Version: 4.5.0
+Section: utils
+Homepage: https://github.com/elements72/NeedForCE
+Vcs-Git: https://github.com/elements72/NeedForCE
+Rules-Requires-Root: no
+
+Package: need-for-ce
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A simple car game
+ The best car game you can play
+ on a terminal
